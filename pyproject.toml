@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = "Backend base dependencies"
+authors = ["david <david.ascencios@bain.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.104.1"
+uvicorn = "0.24.0"
+pandas = "2.2.0"
+requests = "^2.31.0"
+tiktoken = "^0.5.1"
+loguru = "^0.7.2"
+tenacity = "^8.2.3"
+python-json-logger = "^2.0.7"
+pg8000 = "^1.30.3"
+pydantic = {extras = ["email"], version = "^1.10.4"}
+fastapi-utils = "^0.2.1"
+python-dotenv = "^1.0.0"
+envyaml = "^1.10.211231"
+openpyxl = "3.1.2"
+aiohttp = "3.9.3"
+uptrain = "0.5.0"
+polars = "^0.20.0"
+langchain = "^0.1.7"
+langchain_openai = "^0.0.6"
+pyarrow = "15.0"
+scikit-learn= "1.4.0"
+spacy ="^3.0"
+openai="^1.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

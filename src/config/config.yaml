@@ -1,0 +1,31 @@
+endpoint:
+  http://host.docker.internal:8080/api/chat
+
+prompt_files:
+  # 20240207_Call Center Testing Questions_v4.xlsx:
+  #   sheet_name: Updated ground-truth questions
+  20240207_Call Center Testing Questions_v4_first30.xlsx:
+    sheet_name: Updated ground-truth questions
+  # 20240207_Call Center Testing Questions_v4_soc_test.xlsx:
+  #   sheet_name: Updated ground-truth questions
+
+
+query_parameter:
+  query
+
+calculate_llm_metrics:
+  false
+
+cosine_compare_cols:
+  
+
+response_column:
+  bot_response
+
+park_column:
+  park
+
+socratic_criteria_column:
+  socratic_questions
+
+additional_payload_params:
